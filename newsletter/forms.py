@@ -13,7 +13,7 @@ class SignUpForm(forms.ModelForm):
         email_base, provider = email.split("@")
         domain, extension = provider.split(".")
         if not extension =="com":
-            raise forms.ValidationError("Please use a valid .EDU email address")
+            raise forms.ValidationError("Please use a valid .com email address")
         return email
 
     def clean_full_name(self):
