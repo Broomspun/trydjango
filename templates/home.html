@@ -1,0 +1,1 @@
+<h1>Newsletter Page</h1>
