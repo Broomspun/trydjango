@@ -12,7 +12,7 @@ class ContactForm(forms.Form):
         email = self.cleaned_data.get('email')
         email_base, provider = email.split("@")
         domain, extension = provider.split(".")
-        if not extension == "com":
+        if not extension == "net":
             raise forms.ValidationError("Please use a valid .com email address")
         return email
 
