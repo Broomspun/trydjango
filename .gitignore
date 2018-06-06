@@ -1,1 +1,12 @@
-.idea
+.idea/
+newsletter/__pycache__/*.*
+newsletter/__pycache__/
+trydjango/__pycache__/*.*
+trydjango/__pycache__/
+db.sqlite3
+manage.py
+.gitignore
+.bowerrc
+bowers/
+static_pro/
+assets/admin/
