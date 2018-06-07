@@ -10,26 +10,23 @@
 {#        }#}
 {#    {%  endblock %}#}
 {#</style>#}
-{% block jumbotron_content %}
-    <div class="row">
-        <div class="col-sm-6">
-            <h1>Try Django 2.0</h1>
-            <p>The MVP Landing project is designed to get your project started. The goal is to help you launch as soon as possible with the least amount of investment using time or money. Join Us today.
-            </p>
-            <p>
-                <a class="btn btn-lg btn-primary" href="" role="button">Join Us &raquo;</a>
-            </p>
+{% block jumbotron %}
+    <div class="jumbotron">
+        <div class="row">
+            <div class="col-sm-6">
+                <h1>Try Django 2.0</h1>
+                <p>The MVP Landing project is designed to get your project started. The goal is to help you launch as soon as possible with the least amount of investment using time or money. Join Us today.
+                </p>
+                <p>
+                    <a class="btn btn-lg btn-primary" href="" role="button">Join Us &raquo;</a>
+                </p>
+            </div>
+            <div class="col-sm-6" style="background: black; height: 300px">
+            </div>
         </div>
-        <div class="col-sm-6" style="background: black; height: 300px">
-
-        </div>
-
     </div>
 {% endblock %}
 
-{% block jumbotron %}
-    {{ block.super }}
-{% endblock %}
 
 {% block content %}
     <div class="row">

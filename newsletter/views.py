@@ -72,7 +72,7 @@ def contact(request):
             fail_silently=True)
 
     context = {
-        "title": "Contact US",
+        "title": "Contact Us",
         "form": form,
     }
     return render(request, 'forms.html', context)
